@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .cyc{
+        position: relative;
+        width: 100%;
+    }
+    .cyc img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+
+</style>
+<body>
+    
+    <div class="cyc">
+        
+            <img src="assets/blg1.jpg">
+      
+       
+            <img src="assets/blg2.jpg">
+       
+    
+            <img src="assets/blg3.jpg">
+      
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/cycle.js"></script>
+
+    <script>
+        $(function() {
+            $('.cyc').cycle({
+                fx: 'scrollHorz',
+                timeout: 100,
+                slides: '> img',
+                speed: 150,
+                easing: 'easeOutQuint',
+                swipe: true,
+            }).on('cycle-after', function(event, opts) {}).on('cycle-before', function(event, opts) {});
+        });
+    </script>
+</body>
+</html>
