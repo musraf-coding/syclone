@@ -1147,46 +1147,46 @@ img {
 
 
 .f:hover{
-    background: url(img/social.png) no-repeat 89% 0.4% / 314%;
+    background: url(../img/social.png) no-repeat 89% 0.4% / 314%;
     background-color:rgb(166, 70, 70);
     transition: all 0 0.3em ease-in-out;
     
 }
 .i:hover{
-    background: url(img/social.png) no-repeat 90% 20.9% / 299%;
+    background: url(../img/social.png) no-repeat 90% 20.9% / 299%;
     background-color:rgb(166, 70, 70);
     transition: all 0 0.3em ease-in-out;
 }
 .u:hover{
-    background: url(img/social.png) no-repeat 89% 42.5% / 307%;
+    background: url(../img/social.png) no-repeat 89% 42.5% / 307%;
     background-color:rgb(166, 70, 70);
     transition: all 0 0.3em ease-in-out;
 }
 .x:hover{
-    background: url(img/social.png) no-repeat 94% 63.9% / 263%;
+    background: url(../img/social.png) no-repeat 94% 63.9% / 263%;
     background-color:rgb(166, 70, 70);
     transition: all 0 0.3em ease-in-out;
 }
 .l:hover{
-    background: url(img/social.png) no-repeat 90% 84.7% / 291%;
+    background: url(../img/social.png) no-repeat 90% 84.7% / 291%;
     background-color:rgb(166, 70, 70);
     transition: all 0 0.3em ease-in-out;
 }
 
 .f{
-    background: url(img/social.png) no-repeat 1% 0.4% / 314%;
+    background: url(../img/social.png) no-repeat 1% 0.4% / 314%;
 }
 .i{
-    background: url(img/social.png) no-repeat 0% 20.9% / 299%;
+    background: url(../img/social.png) no-repeat 0% 20.9% / 299%;
 }
 .u{
-    background: url(img/social.png) no-repeat 2% 42.5% / 307%;
+    background: url(../img/social.png) no-repeat 2% 42.5% / 307%;
 }
 .x{
-    background: url(img/social.png) no-repeat 0% 63.9% / 263%;
+    background: url(../img/social.png) no-repeat 0% 63.9% / 263%;
 }
 .l{
-    background: url(img/social.png) no-repeat 1% 84.7% / 291%;
+    background: url(../img/social.png) no-repeat 1% 84.7% / 291%;
 }
 .f1{
     display: flex;
